@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            // "program": "${workspaceFolder}\\examples\\heart_rate_collector.js",
+            // "program": "${workspaceFolder}\\examples\\honeywell_uart_test.js",
+            // "program": "${workspaceFolder}\\examples\\honeywell_ble_without_sensor.js",
+            //"program": "${workspaceFolder}\\examples\\honeywell_fw_up_old_ble.js",
+            "program": "${workspaceFolder}\\examples\\honeywell_fw_up_new_ble.js",
+            // "program": "${workspaceFolder}\\examples\\honeywell_ble_test.js",
+            // "args": ["COM6", "v3"]
+            "args": ["COM3", "v3"]
+        }
+    ]
+}
